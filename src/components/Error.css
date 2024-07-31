@@ -1,0 +1,33 @@
+/* src/ErrorPage.css */
+.error-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #080710;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .error-page-container h1 {
+    font-size: 10rem;
+    margin: 0;
+  }
+  
+  .error-page-container p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  .error-page-container .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #080710;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  

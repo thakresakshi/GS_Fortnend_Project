@@ -1,0 +1,31 @@
+/* Add this CSS in Header.css */
+
+.header-title, .header-subtitle {
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Responsive Typography */
+  .header-title {
+    font-size: calc(1.2rem + 1vw); /* Responsive font size */
+  }
+  
+  .header-subtitle {
+    font-size: calc(0.8rem + 0.5vw); /* Responsive font size */
+  }
+  
+  #zp-logo, #emblem-logo {
+    max-height: 150px; /* Ensure the images don't exceed 150px in height */
+    object-fit: contain; /* Maintain the aspect ratio */
+  }
+  
+  @media (min-width: 768px) {
+    .header-title {
+      font-size: calc(1.5rem + 1vw); /* Increase font size on larger screens */
+    }
+  
+    .header-subtitle {
+      font-size: calc(1rem + 0.5vw); /* Increase font size on larger screens */
+    }
+  }
+  

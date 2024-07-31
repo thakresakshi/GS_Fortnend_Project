@@ -1,0 +1,25 @@
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+  .text-container {
+    display: inline-block;
+    vertical-align: middle;
+    animation: marquee 30s linear infinite; /* Adjust the animation duration as needed */
+  }
+  
+  .text-center {
+    margin: 0;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
